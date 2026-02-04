@@ -35,7 +35,6 @@
             this.b2 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.B3 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -103,20 +102,11 @@
             this.B3.UseVisualStyleBackColor = true;
             this.B3.Click += new System.EventHandler(this.B3_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(25, 401);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(143, 22);
-            this.textBox1.TabIndex = 6;
-            this.textBox1.Text = "click  here to switch -->";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.B3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.b2);
@@ -140,7 +130,6 @@
         private System.Windows.Forms.Button b2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button B3;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
