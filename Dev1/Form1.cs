@@ -16,5 +16,24 @@ namespace Dev1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bonjour");
+        }
+
+        private void b2_Click(object sender, EventArgs e)
+        {
+            Secand_Screen SC=new Secand_Screen();
+            SC.Show();
+        }
+
+        private void B3_Click(object sender, EventArgs e)
+        {
+            Image temp=pictureBox1.Image;
+            pictureBox1.Image = pictureBox2.Image;
+            pictureBox2.Image=temp;
+
+        }
     }
 }
